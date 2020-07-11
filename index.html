@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>WebCat</title>
+</head>
+<body>
+    <div class="container">
+        <div class="main__block">
+            <div class="main__descr">
+                <h1 class="main__title">
+                    ПРОЙДИ ТЕСТ И ПОЛУЧИ КРЕДИТ ОТ БАНКА<br>
+                    С 98% ШАНСОМ</h1>
+                <div class="main__text">На основании ответов мы подберем выгодный кредит из 20 банков Беларуси и поможем получить деньги</div>
+                <button id="start__btn" class="main__btn quest__btn">Начать тест</button>
+            </div>
+            <img class="img-1" src="img/money.jpg" alt="bg" />
+            <img class="img-2" src="img/money-2.jpg" alt="bg" />
+        </div>
+        <div class="kwiz">
+            <div class="kwiz__wrapper">
+                <p id="count" class="kwiz__count js-kwiz__count">Вопрос <span id="oneQuest" class="oneQuest"></span> из <span id="allQuest" class="allQuest"></span>
+                </p>
+                <p id="question" class="kwiz__quest js-kwiz__quest"></p>
+                <div id='answer' class="kwiz__answer js-kwiz__answer"></div>
+                <div id="kwiz__btn" class="kwiz__button"><button class="kwiz__btn">Далее</button></div>
+            </div>
+            <div class="kwiz__form" style="display: none;">
+                <p class="kwiz__quest">Твои ответы</p>
+            <div class="res__kwiz">
+                <div class="res__question res__question-1"></div>
+                <div class="res__answer res__answer-1"></div>
+            </div>
+            <div class="res__kwiz">
+                <div class="res__question res__question-2"></div>
+                <div class="res__answer res__answer-2"></div>
+            </div>
+            <div class="res__kwiz">
+                <div class="res__question res__question-3"></div>
+                <div class="res__answer res__answer-3"></div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
